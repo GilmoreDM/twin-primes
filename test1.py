@@ -23,9 +23,9 @@ def is_prime(n):
 
 primes = []
 middles = []
-for x in np.arange(1,(10**6)):
-    #result = is_prime(x)
-    #print(f"{x}: {result}")
+for x in np.arange(1,(10**3)):
+    result = is_prime(x)
+    print(f"{x}: {result}")
     if is_prime(x):
         primes.append(x)
 
